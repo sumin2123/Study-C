@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{685c1452-1900-43b4-bc49-3bf1c7e93ca2}</ProjectGuid>
-    <RootNamespace>비트이동연산자수업</RootNamespace>
+    <ProjectGuid>{5c6c8ad2-2687-4784-b9d5-b48cc36aece3}</ProjectGuid>
+    <RootNamespace>IfelseIfelse문</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Char5-3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="bit move.c" />
+    <ClCompile Include="If ~ else If ~ else .c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
