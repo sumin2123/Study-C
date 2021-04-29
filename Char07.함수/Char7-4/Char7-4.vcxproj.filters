@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="계산기2.c">
+    <ClCompile Include="반환값과 매개변수 모두 없는 함수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
