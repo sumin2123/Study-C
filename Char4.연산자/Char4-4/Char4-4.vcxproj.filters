@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Char 4-4.c">
+    <ClCompile Include="전,후위 표기를 사용한 증감 연산.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

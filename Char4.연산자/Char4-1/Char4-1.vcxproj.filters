@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Char4-1.c">
+    <ClCompile Include="사칙연산, 대입, 음수연산.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
