@@ -140,4 +140,6 @@ int main(void)
   }
   ```
 
+  ---
   
+  ## 다음 Page [9강 포인터](https://github.com/sumin2123/Study-C/blob/main/Char09.%ED%8F%AC%EC%9D%B8%ED%84%B0/9.%ED%8F%AC%EC%9D%B8%ED%84%B0.md#1-%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
