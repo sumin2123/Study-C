@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. while문", "Char6.반복문\Char6.반복문.vcxproj", "{FD3629BB-4389-4B11-8FCA-7B53165E74B4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Char6-1. while문", "Char6.반복문\Char6.반복문.vcxproj", "{FD3629BB-4389-4B11-8FCA-7B53165E74B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. for 문", "2.for 문\2.for 문.vcxproj", "{5412698A-4336-4264-8A5D-0B3D0DCA7E84}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Char6-2. for 문", "2.for 문\2.for 문.vcxproj", "{5412698A-4336-4264-8A5D-0B3D0DCA7E84}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.do ~ While문", "3.do ~ While문\3.do ~ While문.vcxproj", "{F0D7EEB9-5193-48C8-A453-64B1DA718D54}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Char6-3.do ~ While문", "3.do ~ While문\3.do ~ While문.vcxproj", "{F0D7EEB9-5193-48C8-A453-64B1DA718D54}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "실습2", "실습2\실습2.vcxproj", "{02CF2671-3C47-46AB-B8B0-1D6A51ECFAD6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.break,contunue 분기문", "4.break,contunue 분기문\4.break,contunue 분기문.vcxproj", "{6622414C-40CB-406A-BB78-E6BCE7F9F5CA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Char6-5.break,contunue 분기문", "4.break,contunue 분기문\4.break,contunue 분기문.vcxproj", "{6622414C-40CB-406A-BB78-E6BCE7F9F5CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Char6-4", "Char6-4\Char6-4.vcxproj", "{90D8ABD5-FBD3-408A-9938-72360A76A267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{6622414C-40CB-406A-BB78-E6BCE7F9F5CA}.Release|x64.Build.0 = Release|x64
 		{6622414C-40CB-406A-BB78-E6BCE7F9F5CA}.Release|x86.ActiveCfg = Release|Win32
 		{6622414C-40CB-406A-BB78-E6BCE7F9F5CA}.Release|x86.Build.0 = Release|Win32
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Debug|x64.ActiveCfg = Debug|x64
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Debug|x64.Build.0 = Debug|x64
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Debug|x86.ActiveCfg = Debug|Win32
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Debug|x86.Build.0 = Debug|Win32
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Release|x64.ActiveCfg = Release|x64
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Release|x64.Build.0 = Release|x64
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Release|x86.ActiveCfg = Release|Win32
+		{90D8ABD5-FBD3-408A-9938-72360A76A267}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

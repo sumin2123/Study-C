@@ -237,3 +237,149 @@ int main(void)
 
 
 
+---
+
+### 7. 구조체 배열을 초기화하고 출력
+
+
+
+```c
+#include <stdio.h>
+
+struct address
+{
+	char name[20];
+	int age;
+	char tel[20];
+	char addr[80];
+
+};
+
+int main(void)
+{
+	struct address list[5] = {
+		{"홍길동", 23, "111-1111", "울릉도 독도"},
+		{"이순신", 23, "222-2222", "서울 건천동"},
+		{"장보고", 23, "333-3333", "완도 청해진"},
+		{"유관순", 23, "444-4444", "충남 천안"},
+		{"안중근", 23, "555-5555", "황해도 해주"},
+
+	};
+
+	int i;
+
+	for (i = 0; i < 5; i++)
+	{
+		printf("%10s%5d%15s%20s\n",
+			list[i].name, list[i].age, list[i].tel, list[i].addr);
+	}
+
+	return 0;
+}
+```
+
+
+
+---
+
+### 8. 함수에서 화살표 연산자를 사용해서 구조체 배열의 값 출력
+
+```c
+#include <stdio.h>
+
+struct  address
+{
+	char name[20];
+	int age;
+	char tel[20];
+	char addr[80];
+
+};
+
+void print_list(struct address* lp);
+
+int main(void)
+{
+	struct address list[5] = {
+		{"홍길동", 23, "111-1111", "울릉도 독도"},
+		{ "이순신", 23, "222-2222", "서울 건천동" },
+		{ "장보고", 23, "333-3333", "완도 청해진" },
+		{ "유관순", 23, "444-4444", "충남 천안" },
+		{ "안중근", 23, "555-5555", "황해도 해주" },
+	};
+	printf_list(list);
+
+	return 0;
+}
+
+void print_list(struct address* lp)
+{
+	int i;
+
+	for (i = 0; i < 5; i++)
+
+	{
+		printf("%10s%5d%15s%20s\n",
+			(lp + i)->name, (lp + i)->age, (lp + i)->tel, (lp + i)->addr);
+	}
+}
+```
+
+
+
+
+
+---
+
+### 9. 자기 참조 구조체로 list만들기
+
+
+
+```c
+#include <stdio.h>
+
+struct list
+{
+	int num;
+	struct list* next;
+
+};
+
+int main(void)
+{
+	struct list a = { 10,0 }, b = { 20,0 }, c = { 30,0 };
+	struct list* head = &a, * current;
+
+	a.next = &b;
+	b.next = &c;
+
+	printf("head->num : %d\n", head-> num);
+	printf("head -> next-> num : %d\n", head-> next-> num);
+
+	printf("list all : ");
+	current = head;
+	while (current != NULL)
+	{
+		printf("%d ", current->num);
+		current = current->next;
+	}
+
+	printf("\n");
+
+	return 0;
+}
+```
+
+
+
+---
+
+
+
+
+
+
+
+### [ 다음 Page. Char18. 파일 입출력 ]()
+
+ 

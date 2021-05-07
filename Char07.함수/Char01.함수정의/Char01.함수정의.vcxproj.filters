@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="func3.c">
+    <ClCompile Include="2개의 함수로 만든 프로그램.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
