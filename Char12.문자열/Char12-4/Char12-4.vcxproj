@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{75169ced-8419-4825-b1ab-88bac36a746f}</ProjectGuid>
-    <RootNamespace>Char1214</RootNamespace>
+    <ProjectGuid>{0c34cf66-02ae-44d9-8773-df5339c2aba5}</ProjectGuid>
+    <RootNamespace>Char124</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="직접 만드는 strcat함수.c" />
+    <ClCompile Include="gets 함수로 한 줄의 문자열 입력.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

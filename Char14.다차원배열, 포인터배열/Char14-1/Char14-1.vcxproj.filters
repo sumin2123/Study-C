@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3명의 4과목 총점과 평균.c">
+    <ClCompile Include="학생 3명의 4과목 총점과 평균을 구하는 프로그램.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="strcpy와 기능이 같은 함수 구현.c">
+    <ClCompile Include="여러 개의 1차원 배열을 2차원 배열처럼 사용.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
