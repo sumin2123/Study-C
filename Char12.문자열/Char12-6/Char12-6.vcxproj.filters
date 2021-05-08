@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fgets함수를 사용한 문자열 입력.c">
+    <ClCompile Include="개행 문자로 인해 gets함수가 입력을 못하는 경우.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

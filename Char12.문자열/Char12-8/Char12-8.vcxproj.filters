@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fgets함수를 사용한 문자열 입력.c">
+    <ClCompile Include="strcpy함수의 사용법.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
