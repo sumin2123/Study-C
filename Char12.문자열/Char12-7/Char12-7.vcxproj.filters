@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="strcpy함수의 사용.c">
+    <ClCompile Include="문자열울 출력하는 puts와 fputs 함수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

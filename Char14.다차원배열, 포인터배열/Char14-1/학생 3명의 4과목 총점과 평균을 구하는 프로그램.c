@@ -13,7 +13,7 @@ int main(void)
 		printf("4과목의 점수 입력 : ");
 		for (j = 0; j < 4; j++)
 		{
-			scanf("%d",&score[i][j]);
+			scanf("%d", &score[i][j]);
 		}
 	}
 

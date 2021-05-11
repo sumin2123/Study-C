@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문자열 붙이기.c">
+    <ClCompile Include="gets 함수로 한 줄의 문자열 입력.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

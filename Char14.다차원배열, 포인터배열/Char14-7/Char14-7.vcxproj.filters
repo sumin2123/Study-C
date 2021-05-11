@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="scanf함수를 사용한 문자열 입력.c">
+    <ClCompile Include="여러 개의 1차원 배열을 2차원 배열처럼 사용.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

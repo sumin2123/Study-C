@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0c34cf66-02ae-44d9-8773-df5339c2aba5}</ProjectGuid>
-    <RootNamespace>Char124</RootNamespace>
+    <ProjectGuid>{8b0fa39e-f31c-492f-b56b-d28b137cfc5e}</ProjectGuid>
+    <RootNamespace>Char122</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="gets 함수로 한 줄의 문자열 입력.c" />
+    <ClCompile Include="포인터로 문자열을 사용하는 방법.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
