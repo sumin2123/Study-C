@@ -4,8 +4,6 @@
 	2. 구조체 Login변수에 id, password 멤버에 각각 저장 시키고
 	3. 키보드로 입력되는 id와 pw를 비교하여 "로그인되었습니다."
 	또는 "id를 찾을 수 없습니다"라는 메세지를 출력하는 프로그램을 작성하시오.
-
-
 */
 
 #define _CRT_SECURE_NO_WARNINGS
